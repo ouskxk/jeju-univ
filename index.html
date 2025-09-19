@@ -1,1 +1,25 @@
-<!-- Start -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message</title>
+</head>
+<body>
+  <script>
+    const NAME = 'hyeona'
+    function getMessage(name) {
+      return `Hello ${name}...`;
+    }
+    const message = getMessage(NAME); 
+    document.write(message);
+
+    setTimeout(
+      () => {document.write('안녕하세요!! \n');}, 3000)
+    setTimeout(
+      () => {document.write('저는 김현아입니다!! \n');}, 6000)
+    setTimeout(
+      () => {document.write('잘부탁드립니다!! \n');}, 9000)
+  </script>
+</body>
+</html>
