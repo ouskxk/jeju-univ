@@ -39,4 +39,4 @@ for (const floavor of flavors) {
     mostSoldFlavor = floavor;
   }
 }
-console.log(`오늘의 1등 맛은 ${mostSoldFlavor} 입니다!`);
+console.log(`오늘의 1등 맛은 ${mostSoldFlavor} 입니다요`);
