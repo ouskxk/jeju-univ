@@ -19,7 +19,7 @@ else if (bankSum > 21) {
   console.log('Bank Busts! You win. ');
 }
 else if (sum === bankSum) {
-  console.log('Draw.');
+  console.log('Draw!!');
 }
 else if (sum > bankSum) {
   console.log('You win! ');
