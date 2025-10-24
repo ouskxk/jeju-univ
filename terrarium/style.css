@@ -1,0 +1,173 @@
+h1 { 
+ color: blue; 
+ text-align: center;
+}
+
+body { 
+    font-family: helvetica, arial, sans-serif; 
+}
+
+#left-container { 
+    background-color: #eee; 
+    width: 15%; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    height: 100%; 
+    padding: 10px; 
+}
+#right-container { 
+    background-color: #eee; 
+    width: 15%; 
+    right: 0px; 
+    top: 0px; 
+    position: absolute; 
+    height: 100%; 
+    padding: 10px; 
+}
+
+#left-container { 
+left: 0px;
+}
+#right-container { 
+right: 0px;
+}
+.container { 
+background-color: #eee; 
+width: 15%; 
+top: 0px; 
+position: absolute; 
+height: 100%; 
+padding: 10px;
+}
+
+.plant-holder { 
+    position: relative; 
+    height: 13%; 
+    left: -10px; 
+}
+.plant { 
+    position: absolute; 
+    max-width: 150%; 
+    max-height: 150%; 
+    z-index: 2; 
+}
+
+.jar-walls { 
+    height: 80%; 
+    width: 60%; 
+    background: #d1e1df; 
+    border-radius: 1rem; 
+    position: absolute; 
+    bottom: 0.5%; 
+    left: 20%; 
+    opacity: 0.5; 
+    z-index: 1; 
+}
+.jar-top { 
+    width: 50%; 
+    height: 5%; 
+    background: #d1e1df; 
+    position: absolute; 
+    bottom: 80.5%; 
+    left: 25%; 
+    opacity: 0.7; 
+    z-index: 1; 
+}
+
+
+.jar-walls { 
+    height: 80%; 
+    width: 60%; 
+    background: #d1e1df; 
+    border-radius: 1rem; 
+    position: absolute; 
+    bottom: 0.5%; 
+    left: 20%; 
+    opacity: 0.5; 
+    z-index: 1; 
+}
+.jar-top { 
+    width: 50%; 
+    height: 5%; 
+    background: #d1e1df; 
+    position: absolute; 
+    bottom: 80.5%; 
+    left: 25%; 
+    opacity: 0.7; 
+    z-index: 1; 
+}
+
+.jar-bottom { 
+    width: 50%; 
+    height: 1%; 
+    background: #d1e1df; 
+    position: absolute; 
+    bottom: 0%; 
+    left: 25%; 
+    opacity: 0.7; 
+}
+.dirt { 
+    width: 60%; 
+    height: 5%; 
+    background: #3a241d; 
+    position: absolute; 
+    border-radius: 0 0 1rem 1rem; 
+    bottom: 1%; 
+    left: 20%; 
+    opacity: 0.7; 
+    z-index: -1; 
+}
+
+div { width: 200px;
+height: 100px; 
+padding: 10px; 
+margin: 20px;
+}
+
+.jar-glossy-long {
+    width: 1%;
+    height: 20%;
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    border-radius: 5rem;
+}
+
+.jar-glossy-short {
+    width: 1%;
+    height: 2%;
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+    border-radius: 50%;
+}
+
+.water {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  background: rgba(0, 150, 255, 0.3);
+  bottom: 0;
+  border-radius: 0 0 50% 50%;
+  overflow: hidden; /* 이미지가 물 밖으로 안 나가게 */
+}
+
+/* 물속 이미지 위치 조정 */
+.plant-in-water {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.plant {
+  position: absolute; /* 필수! 드래그를 위해 */
+  cursor: grab;
+  z-index: 5;
+  width: 100px;
+  transition: transform 0.3s ease;
+}
