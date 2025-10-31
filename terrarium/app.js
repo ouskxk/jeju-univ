@@ -73,13 +73,13 @@ document.addEventListener('DOMContentLoaded', () => {
       if (zone.classList.contains('container')) {
         newLeft = e.clientX - zoneRect.left - offsetX;
         newTop = e.clientY - zoneRect.top - offsetY;
-        zone.appendChild(plant); /
+        zone.appendChild(plant);
       } else {
         newLeft = e.clientX - zoneRect.left - offsetX;
         newTop = e.clientY - zoneRect.top - offsetY;
         zone.appendChild(plant); 
       }
-      
+
       plant.style.left = `${newLeft}px`;
       plant.style.top = `${newTop}px`;
       plant.style.zIndex = ++highestZ;
