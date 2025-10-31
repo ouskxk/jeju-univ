@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <title>Personal Carbon Trigger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="./plants-people.png" alt="Carbon Trigger decorative image"> 
+        <p class="h1">Welcome to Your Personal Carbon Trigger!</p>
+
+        <form class="form-data" id="carbon-form">
+            <p class="h2">New? Add your Information</p>
+            <div>
+                <label for="region">Region Name</label>
+                <input type="text" id="region">
+            </div>
+            <div>
+                <label for="api-key">Your API Key from tmrow</label>
+                <input type="text" id="api-key" required>
+            </div>
+            <button type="submit" class="search-btn">Submit</button>
+        </form>
+
+        <div class="result-container hidden" id="result-view">
+            <p><b>Region:</b> US-NEISO</p>
+            <p><strong>Carbon Usage:</strong> 292 grams (grams CO2 emitted per kilowatt hour)</p>
+            <p><strong>Fossil Fuel Percentage:</strong> 55.41% (percentage of fossil fuels used to generate electricity)</p>
+            <button type="button" class="search-btn" id="change-region-btn">Change region</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
