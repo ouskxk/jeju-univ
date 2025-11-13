@@ -1,0 +1,159 @@
+body {
+    color: #333;
+    margin: 0;
+    padding: 30px;
+    width: 350px; /* 팝업의 고정 너비 지정 */
+    box-sizing: border-box; /* 패딩이 너비에 포함되도록 */
+}
+
+.container {
+    max-width: 600px;
+    height: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin:10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.form-data div {
+    margin-bottom: 15px;
+}
+
+.form-data label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-data input[type='text'] {
+    width: 60%;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 1px solid #f5f5f5;
+    background :#f5f5f5;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.search-btn {
+    border: none;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    background :#0055ff;
+    border-radius: 10px;
+    color : white;
+}
+
+.clear-btn {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.clear-btn:hover {
+    background-color: #d5d5d5;
+}
+
+.result {
+    margin-top: 30px;
+}
+
+.loading {
+    color: #888;
+    font-style: italic;
+}
+
+.errors {
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #ffe0e0;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+.result-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+.result-container p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.result-container,
+.loading,
+.errors,
+.clear-btn {
+    display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    
+    body {
+        background-color: #1e1e1e; 
+        color: #f1f1f1;
+    }
+
+    h1, h2 {
+        color: #f1f1f1;
+    }
+
+    .form-data input[type='text'] {
+        background-color: #333;
+        border-color: #555;
+        color: #f1f1f1;
+    }
+
+    .result-container {
+        background-color: #2a2a2a;
+        border-color: #444;
+    }
+
+    /* 모든 버튼에 적용 */
+    .search-btn, 
+    #change-region-btn {
+        background-color: #0056b3;
+        color: white;
+    }
+}
+.h1 {
+    font-size: 1.5em;
+}
+.h2 {
+    font-size: 1.2em;
+}
+h1 {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #222;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}

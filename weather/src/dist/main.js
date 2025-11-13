@@ -83,8 +83,6 @@ function processAndDisplayWeather(data) {
     resultsDiv.innerHTML = htmlContent;
     
 }
-
-// 이벤트 리스너 설정
 fetchButton.addEventListener('click', () => {
     // 입력된 도시 이름의 앞뒤 공백 제거
     const city = cityInput.value.trim(); 

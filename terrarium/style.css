@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: helvetica, arial, sans-serif;
 }
@@ -112,3 +113,155 @@ div {
     left: 45%;
     border-radius: 50%;
 }
+=======
+h1 { 
+  color: blue; 
+  text-align: center;
+  width : 100%;
+  height: 80%;
+  font-weight: 800;
+}
+
+body { 
+  font-family: helvetica, arial, sans-serif; 
+  background-color: #fffaeadd;
+}
+
+.container { 
+  background-color: #fffaeadd; 
+  width: 15%; 
+  top: 0px; 
+  position: absolute; 
+  height: 100%; 
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#left-container { 
+  left: 0px;
+}
+
+#right-container { 
+  right: 0px;
+}
+
+.plant-holder { 
+  position: relative; 
+  height: 13%; 
+  width: 100%;
+}
+
+.plant {
+    position : absolute;
+    width : 100px;
+    height : 100px;
+    z-index : 5;
+    object-fit : contain;   
+    cursor : grab;
+    transition : transform 0.3s ease, opacity 0.2s ease;
+}
+
+#terrarium {
+  position: relative;
+  width: 60%;
+  height: 80vh; 
+  margin: 40px auto;
+  z-index: 1;
+}
+
+.jar-walls { 
+  height: 80%; 
+  width: 60%; 
+  background: #dee1ffb0; 
+  border-radius: 1rem; 
+  position: absolute; 
+  bottom: 0.5%; 
+  left: 20%; 
+  opacity: 0.5; 
+  z-index: 1; 
+  transition: background-color 0.3s ease;
+}
+
+.jar-top { 
+  width: 50%; 
+  height: 5%; 
+  background: #dee1ffb0; 
+  position: absolute; 
+  bottom: 80.5%; 
+  left: 25%; 
+  opacity: 0.7; 
+  z-index: 2;
+}
+
+.jar-bottom { 
+  width: 50%; 
+  height: 1%; 
+  background: #dee1ffb0; 
+  position: absolute; 
+  bottom: 0%; 
+  left: 25%; 
+  opacity: 0.7;
+}
+
+.dirt { 
+  width: 60%; 
+  height: 3%; 
+  background: #dee1ffb0; 
+  position: absolute; 
+  border-radius: 0 0 0.8rem 0.8rem; 
+  bottom: 1%; 
+  left: 20%;
+  opacity: 0.7; 
+  z-index: 0; 
+}
+
+.jar-glossy-long {
+  width: 1.5%;
+  height: 20%;
+  background: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  border-radius: 5rem;
+  z-index: 2;
+}
+
+.jar-glossy-short {
+  width: 1.5%; 
+  height: 2%;
+  background: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.water {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  background: rgba(0, 150, 255, 0.3);
+  bottom: 0;
+  border-radius: 0 0 50% 50%;
+  overflow: hidden;
+}
+
+.plant-in-water {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.hovered {
+  background-color: #dcfade; 
+}
+
+#terrarium .jar-walls.hovered {
+  background-color: #c1d1cf;
+  opacity: 0.6;
+}
+
+>>>>>>> 12b765036c4a87bd2feb496979564306f3be30f0

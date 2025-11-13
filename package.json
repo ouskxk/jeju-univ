@@ -2,5 +2,25 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^7.1.0",
     "@fortawesome/react-fontawesome": "^3.1.0"
-  }
+  },
+  "name": "jeju-univ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "echo 'Build successful for Extension!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ouskxk/jeju-univ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ouskxk/jeju-univ/issues"
+  },
+  "homepage": "https://github.com/ouskxk/jeju-univ#readme"
 }
