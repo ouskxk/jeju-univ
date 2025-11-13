@@ -82,10 +82,7 @@ function processAndDisplayWeather(data) {
 
     resultsDiv.innerHTML = htmlContent;
     
-    // (⚠️ 과제 수준을 높이려면: 여기에 Chart.js 등 시각화 코드를 추가하세요.)
 }
-
-// --- 6. 이벤트 리스너 설정 ---
 fetchButton.addEventListener('click', () => {
     // 입력된 도시 이름의 앞뒤 공백 제거
     const city = cityInput.value.trim(); 
