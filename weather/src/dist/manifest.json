@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "주간 날씨 동향 분석기",
+    "version": "1.0",
+    "description": "OpenWeatherMap API를 활용한 5일간 날씨 동향 분석 과제",
+    
+    "action": {
+        "default_popup": "index.html", 
+        "default_title": "날씨 분석기"
+    },
+        "host_permissions": [
+        "https://api.openweathermap.org/*" 
+    ],
+        "permissions": [
+        "activeTab"
+    ]
+}
