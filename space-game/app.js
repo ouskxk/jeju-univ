@@ -1,5 +1,3 @@
-// app.js
-
 // 이미지 로더 함수 (슬라이드 기본 코드)
 function loadTexture(path) {
   return new Promise((resolve) => {
@@ -11,7 +9,6 @@ function loadTexture(path) {
   });
 }
 
-// 3. 별 무늬 우주 배경 만들기 (createPattern 사용)
 function drawSpaceBackground(ctx, canvas) {
   // 패턴용 임시 캔버스
   const patternCanvas = document.createElement("canvas");
@@ -50,7 +47,6 @@ function drawSpaceBackground(ctx, canvas) {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
 
-// 1. 플레이어 우주선 + 양옆 보조 우주선 2기
 function drawPlayerWithSupportShips(ctx, canvas, heroImg) {
   // 메인 우주선 크기
   const mainScale = 1.0;
@@ -79,7 +75,6 @@ function drawPlayerWithSupportShips(ctx, canvas, heroImg) {
   ctx.drawImage(heroImg, rightX, subY, subWidth, subHeight);
 }
 
-// 2. 기존 슬라이드에 있던 적군 배치 (참고용)
 function createEnemies(ctx, canvas, enemyImg) {
   const MONSTER_TOTAL = 5;
   const MONSTER_WIDTH = MONSTER_TOTAL * enemyImg.width;
@@ -101,7 +96,6 @@ function createEnemies2(ctx, canvas, enemyImg) {
   const centerX = canvas.width / 2;
 
   for (let row = 0; row < ROWS; row++) {
-    // 역피라미드: 위쪽은 5개, 아래는 1개
     const count = ROWS - row; // 5,4,3,2,1 순서
 
     const totalWidth = count * enemyImg.width + (count - 1) * gapX;
@@ -120,7 +114,6 @@ window.onload = async () => {
   const canvas = document.getElementById("myCanvas");
   const ctx = canvas.getContext("2d");
 
-  // 이미지가 img/ 폴더에 있으므로 이렇게!
   const heroImg = await loadTexture("img/player.png");
   const enemyImg = await loadTexture("img/enemyShip.png");
 
