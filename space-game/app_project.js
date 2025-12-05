@@ -1,6 +1,4 @@
-// =============================
 // 이미지 로더
-// =============================
 function loadTexture(path) {
   return new Promise((resolve, reject) => {
     const img = new Image();
@@ -10,9 +8,7 @@ function loadTexture(path) {
   });
 }
 
-// =============================
 // 전역 상태 변수
-// =============================
 let enemies = [];
 let lasers = [];
 let enemyLasers = [];
