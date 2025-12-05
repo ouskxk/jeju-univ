@@ -10,7 +10,6 @@ form.addEventListener('submit', (e) => {
     resultsView.style.display = 'block';
 });
 
-// 4. 'Change region' 버튼 클릭 이벤트
 changeRegionBtn.addEventListener('click', () => {
     resultsView.style.display = 'none';
     form.style.display = 'block';
