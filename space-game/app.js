@@ -8,9 +8,7 @@ function loadTexture(path) {
   });
 }
 
-// =============================
 // 전역 상태 변수
-// =============================
 let enemies = [];
 let lasers = [];
 let explosions = [];
