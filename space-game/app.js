@@ -1,6 +1,4 @@
-// =============================
 // 이미지 로더
-// =============================
 function loadTexture(path) {
   return new Promise((resolve, reject) => {
     const img = new Image();
