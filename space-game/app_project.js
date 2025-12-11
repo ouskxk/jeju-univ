@@ -109,28 +109,24 @@ function resetGame() {
 // 메인 루프
 // =============================
 function update() {
-  // 1. 현재 시간(Delta Time) 계산
   const now = Date.now();
   const dt = (now - lastFrameTime) / 1000; // 초 단위 경과 시간
   lastFrameTime = now;
 
   if (!isGameOver) {
-    // 🔥 게임 중이고 스테이지 전환 중이 아닐 때만 시간 감소
     if (!stageClearing) {
       timeLeft -= dt;
       if (timeLeft <= 0) {
         timeLeft = 0;
-        isGameOver = true; // 시간 초과로 게임 오버!
+        isGameOver = true; // 시간 초과로 게임 오버
       }
     }
-
     movePlayer(player, canvas);
     handleShooting();
     moveLasers();
     moveEnemies();
     checkCollisions();
   }
-
   drawScene(ctx, canvas);
   requestAnimationFrame(update);
 }
@@ -179,19 +175,18 @@ function handleShooting() {
 function createEnemies(canvas, enemyImg) {
   enemies = [];
 
-  // 🔥 스테이지 5는 보스전!
   if (stage === 5) {
     enemies.push({
       x: canvas.width / 2 - 64, // 중앙 정렬
       y: 35,
-      width: 128,  // 일반 적보다 훨씬 큼
+      width: 128, 
       height: 128,
-      isBoss: true, // 보스임을 표시
-      hp: 35,       // 보스 체력
-      maxHp: 35,    // 체력바 표시용
-      dx: 3         // 보스 이동 속도 (좌우)
+      isBoss: true, 
+      hp: 35,       
+      maxHp: 35,   
+      dx: 3         
     });
-    return; // 보스만 만들고 함수 종료
+    return; 
   }
 
   // 일반 스테이지 적 생성
@@ -226,7 +221,6 @@ function moveEnemies() {
   for (let i = 0; i < enemies.length; i++) {
     let enemy = enemies[i];
 
-    // 🔥 보스 이동 로직 (좌우 왕복)
     if (enemy.isBoss) {
       enemy.x += enemy.dx;
       // 화면 벽에 닿으면 방향 반대로
@@ -234,10 +228,8 @@ function moveEnemies() {
         enemy.dx *= -1; 
       }
     } else {
-      // 일반 적 이동 (아래로)
+      // 일반 적 이동
       enemy.y += speed;
-      
-      // 적이 플레이어 라인(화면 하단)을 넘어갔는지 체크
       if (enemy.y + enemy.height > canvas.height - 50) {
         isGameOver = true;
         gameWon = false;
