@@ -53,10 +53,6 @@ window.onload = async () => {
     enemyImg = await loadTexture("./assets/meteorSmall.png");
     laserImg = await loadTexture("./assets/laserGreen.png");
     lifeImg = await loadTexture("./assets/enemyUFO.png");
-    enemyImg = await loadTexture("./assets/enemyUFO.png");
-    
-    laserImg = await loadTexture("./assets/laserRed.png");
-    lifeImg = await loadTexture("./assets/life.png");
   } catch (err) {
     console.error(err);
     alert("이미지 로드 실패! assets 폴더를 확인해주세요.");
@@ -178,7 +174,7 @@ function createEnemies(canvas, enemyImg) {
 }
 
 function moveEnemies() {
-  // ← 스테이지가 올라갈수록 적이 빨라짐!
+  // 스테이지가 올라갈수록 적이 빨라짐!
   const speed = 0.5 + (stage * 0.1);
   enemies.forEach(enemy => enemy.y += speed);
 }
@@ -214,11 +210,11 @@ function checkCollisions() {
     }
   }
 
-  // 3. ← 스테이지 클리어 조건!
+  // 3. 스테이지 클리어 조건!
   if (enemies.length === 0 && !isGameOver && !stageClearing) {
     stageClearing = true;  // 중복 실행 방지
     
-    // 5스테이지 클리어하면 게임 승리
+    // 5 스테이지 클리어하면 게임 승리
     if (stage >= 5) {
       isGameOver = true;
       gameWon = true;
@@ -309,7 +305,7 @@ function drawUI(ctx, canvas) {
   ctx.textAlign = "left";
   ctx.fillText(`Points: ${score}`, 20, canvas.height - 60);
   
-  // ← 스테이지 표시!
+  // 스테이지 표시
   ctx.fillText(`Stage: ${stage}`, 20, canvas.height - 30);
 
   // 생명 아이콘
