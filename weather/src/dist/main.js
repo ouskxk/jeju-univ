@@ -46,7 +46,7 @@ function processAndDisplayWeather(data) {
 
     // 5일간의 3시간 단위 데이터를 순회하며 일별 통계 계산
     forecastList.forEach(item => {
-        const dateTime = new Date(item.dt * 1000); // Unix Timestamp를 JS Date 객체로 변환
+        const dateTime = new Date(item.dt * 1000);
         // 날짜만 'yyyy. mm. dd' 형식으로 추출
         const date = dateTime.toLocaleDateString('ko-KR', { month: '2-digit', day: '2-digit', year: 'numeric' }); 
         

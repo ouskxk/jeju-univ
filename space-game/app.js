@@ -53,6 +53,10 @@ window.onload = async () => {
     enemyImg = await loadTexture("./assets/meteorSmall.png");
     laserImg = await loadTexture("./assets/laserGreen.png");
     lifeImg = await loadTexture("./assets/enemyUFO.png");
+    enemyImg = await loadTexture("./assets/enemyUFO.png");
+    
+    laserImg = await loadTexture("./assets/laserRed.png");
+    lifeImg = await loadTexture("./assets/life.png");
   } catch (err) {
     console.error(err);
     alert("이미지 로드 실패! assets 폴더를 확인해주세요.");
