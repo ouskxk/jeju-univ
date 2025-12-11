@@ -52,12 +52,12 @@ window.onload = async () => {
   // 이미지 로드
   // =============================
   try {
-    playerImg = await loadTexture("./assets/playerLeft.png");
+    playerImg = await loadTexture("./assets/enemyUFO.png");
     playerLeftImg = await loadTexture("./assets/playerLeft.png");
     playerRightImg = await loadTexture("./assets/playerRight.png");
-    enemyImg = await loadTexture("./assets/enemyUFO.png");
-    laserImg = await loadTexture("./assets/laserRed.png");
-    lifeImg = await loadTexture("./assets/life.png");
+    enemyImg = await loadTexture("./assets/meteorSmall.png");
+    laserImg = await loadTexture("./assets/laserGreen.png");
+    lifeImg = await loadTexture("./assets/enemyUFO.png");
   } catch (err) {
     console.error(err);
     alert("이미지 로드 실패! assets 폴더를 확인해주세요.");
