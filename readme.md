@@ -54,30 +54,30 @@
 ### 3-2) 대시보드 : 직관적인 현황 브리핑
 * 오늘 저장한 글, 미열람 수 등을 상단 위젯에 배치해 접속 즉시 상태 파악이 가능합니다.
 * 정보 성격에 따른 카드 모듈화로 시각적 혼선을 방지했습니다.
-* <img width="2203" height="2178" alt="대시보드" src="https://github.com/user-attachments/assets/397d7aca-ee87-40d4-8110-dfed1f264c3c" />
+<img width="2203" height="2178" alt="대시보드" src="https://github.com/user-attachments/assets/397d7aca-ee87-40d4-8110-dfed1f264c3c" />
 
 
 ### 3-3) 태그 관리 : 인지 피로도 감소와 행동 유도
 * 낮은 채도의 파스텔 톤을 사용하여 장시간 사용 시의 눈 피로도를 낮췄습니다.
 * 태그를 '조작 가능한 입체적 객체'로 디자인하여 사용자의 능동적인 분류를 유도합니다.
-* <img width="2203" height="2098" alt="태그 목록" src="https://github.com/user-attachments/assets/7183d9be-0995-464a-a4a2-08c74797f1e2" />
+<img width="2203" height="2098" alt="태그 목록" src="https://github.com/user-attachments/assets/7183d9be-0995-464a-a4a2-08c74797f1e2" />
 
 ### 3-4) 상세 화면 : 효율적인 정보 가공
 * **Split View**: 원문 열람과 동시에 메모/요약을 참고할 수 있는 화면 분할 레이아웃을 적용했습니다.
 * 원문의 맥락을 유지하며 정보를 가공할 수 있는 멀티태스킹 최적화 환경입니다.
-* <img width="2203" height="2039" alt="북마크 상세 페이지" src="https://github.com/user-attachments/assets/90256cca-5d90-4699-a9bf-a65866eb5f5e" />
+<img width="2203" height="2039" alt="북마크 상세 페이지" src="https://github.com/user-attachments/assets/90256cca-5d90-4699-a9bf-a65866eb5f5e" />
 
 
 ### 3-5) 리마인더 : 심리적 압박을 줄이는 가이드
 * 흐름 중심의 시각화를 통해 업무 우선순위를 자연스럽게 파악하도록 유도했습니다.
 * 긴급 정보는 상단 진한 파란색 배너로 처리하여 정보 누락을 방지하고 위계를 확립했습니다.
-* <img width="2203" height="2673" alt="리마인더" src="https://github.com/user-attachments/assets/cb6c8bd0-cd72-480b-aa00-16b95ee66a76" />
+<img width="2203" height="2673" alt="리마인더" src="https://github.com/user-attachments/assets/cb6c8bd0-cd72-480b-aa00-16b95ee66a76" />
 
 
 ### 3-6) 설정 : 게슈탈트 원리를 활용한 구조화
 * **근접성의 원리**: 연관된 기능끼리 박스 형태로 묶어 인지 복잡도를 낮췄습니다.
 * 원하는 기능을 즉각적으로 찾을 수 있도록 복잡한 경로를 단순화했습니다.
-* <img width="2203" height="2039" alt="설정" src="https://github.com/user-attachments/assets/6ebb3ca2-c685-4f4b-9b2b-612e846e0b5d" />
+<img width="2203" height="2039" alt="설정" src="https://github.com/user-attachments/assets/6ebb3ca2-c685-4f4b-9b2b-612e846e0b5d" />
 
 ---
 
