@@ -75,17 +75,25 @@
 
 ---
 
-## 4. 디자이너 산출물 링크
+## 4. 디자이너 산출물 링크 (Design Deliverables)
 
-> 본 프로젝트의 설계 단계부터 고도화된 인터랙션까지 담긴 디자인 자산들을 아래 링크에서 상세히 확인할 수 있습니다.
+본 프로젝트의 기획 설계부터 최종 UI 디자인까지 모든 디자인 자산은 하나의 Figma 프로젝트 파일 내에서 체계적으로 관리되고 있습니다. 아래 링크를 통해 각 단계별 상세 산출물을 확인하실 수 있습니다.
 
-* **🎨 [Figma 디자인 원본 링크]** (여기에 실제 피그마 주소를 넣으세요)
-    * UI Foundation(컬러, 타이포그래피, 컴포넌트)과 전체 페이지 시안이 포함된 작업 문서입니다.
-* **🕹️ [Interactive Prototype]** (피그마의 'Present' 모드 공유 링크)
-    * 페이지 전환 및 주요 인터랙션(태그 입력, 리마인더 배너 등)을 경험할 수 있는 프로토타입입니다.
-* **📄 [와이어프레임 & 로직 설계]** (기획 단계의 구조도)
-    * 초기 정보 구조도(IA)와 핵심 기능 로직(태그 자동 판별 시스템 등)을 담은 설계 문서입니다.
+* **📄 [와이어프레임 & 로직 설계]**
+    * 서비스의 전체 구조도(IA)와 핵심 기능인 '태그 자동 판별 시스템' 등 주요 사용자 시나리오 및 로직 설계가 담겨 있습니다.
+    * [링크 바로가기](https://www.figma.com/design/83C7bwmGBpfx8QNQOlVkIF/%EB%B6%81%EB%A7%88%ED%81%AC-%EC%84%9C%EB%B9%84%EC%8A%A4?node-id=708-8119&t=h26PZFUmOdGjvM3K-1)
 
+* **🎨 [디자인 시스템 (UI Foundation)]**
+    * 컬러 팔레트, 타이포그래피, 버튼 및 카드 UI 등 일관성 있는 디자인을 위해 구축된 시스템 컴포넌트들을 확인할 수 있습니다.
+    * [링크 바로가기](https://www.figma.com/design/83C7bwmGBpfx8QNQOlVkIF/%EB%B6%81%EB%A7%88%ED%81%AC-%EC%84%9C%EB%B9%84%EC%8A%A4?node-id=418-79&t=h26PZFUmOdGjvM3K-1)
+
+* **🖥️ [Figma 디자인 원본 및 상세 시안]**
+    * 대시보드, 리마인더 타임라인, 스플릿 뷰 등 전체 페이지의 최종 UI 시안과 전체 작업 프로세스가 포함된 원본 문서입니다.
+    * [링크 바로가기](https://www.figma.com/design/83C7bwmGBpfx8QNQOlVkIF/%EB%B6%81%EB%A7%88%ED%81%AC-%EC%84%9C%EB%B9%84%EC%8A%A4?node-id=0-1&t=h26PZFUmOdGjvM3K-1)
+
+* **🕹️ [Interactive Prototype]**
+    * 실제 서비스와 유사한 환경에서 페이지 전환 및 핵심 인터랙션을 직접 경험할 수 있는 프로토타입 모드입니다.
+    * [프로토타입 실행하기](https://www.figma.com/proto/83C7bwmGBpfx8QNQOlVkIF/%EB%B6%81%EB%A7%88%ED%81%AC-%EC%84%9C%EB%B9%84%EC%8A%A4?type=design&node-id=0-1&t=h26PZFUmOdGjvM3K-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=741%3A8325)
 ---
 
 ## 5. 리스크 관리 및 해결 (Risk Management)
