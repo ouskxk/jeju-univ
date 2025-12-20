@@ -1,5 +1,3 @@
-<img width="2203" height="2039" alt="설정" src="https://github.com/user-attachments/assets/b18b2f77-32a2-4632-aaef-7226c1d817fb" /># 🎨 MySave Design System
-
 > **"웹 서핑의 맥락을 방해하지 않는 수집과, 꺼내보고 싶은 나만의 지식 서재"**
 > MySave는 기존 북마크의 정적인 리스트 방식을 탈피하여, 사용자의 사고 체계에 맞춘 유연한 정보 관리 환경을 설계합니다.
 
